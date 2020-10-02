@@ -1,0 +1,3 @@
+<xs:element name="color" type="xs:string" default="red"/>
+
+<xs:element name="color" type="xs:string" fixed="red"/>

@@ -1,0 +1,8 @@
+<xs:element name="person" type="persontype"/>
+
+<xs:complexType name="persontype">
+  <xs:sequence>
+    <xs:element name="firstname" type="xs:string"/>
+    <xs:element name="lastname" type="xs:string"/>
+  </xs:sequence>
+</xs:complexType>

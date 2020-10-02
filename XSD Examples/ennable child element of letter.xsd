@@ -1,0 +1,9 @@
+<xs:element name="letter" type="lettertype"/>
+
+<xs:complexType name="lettertype" mixed="true">
+  <xs:sequence>
+    <xs:element name="name" type="xs:string"/>
+    <xs:element name="orderid" type="xs:positiveInteger"/>
+    <xs:element name="shipdate" type="xs:date"/>
+  </xs:sequence>
+</xs:complexType>

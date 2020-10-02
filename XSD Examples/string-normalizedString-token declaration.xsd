@@ -1,0 +1,6 @@
+<xs:element name="customer" type="xs:string"/>
+
+<xs:element name="customer" type="xs:normalizedString"/>
+
+<xs:element name="customer" type="xs:token"/>
+
